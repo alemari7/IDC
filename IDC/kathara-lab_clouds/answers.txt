@@ -1,0 +1,3 @@
+1- router id per r21 è 120.20.3.2 lo trovo da sh ip ospf database da r21 vtysh
+2- DR per LAN G è b03 -> sh ip ospf database su b012
+3- solamente una -> sh ip route su r21
