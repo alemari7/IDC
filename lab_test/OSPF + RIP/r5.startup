@@ -1,0 +1,6 @@
+ip address add 220.0.2.2/30 dev eth0
+ip address add 220.0.1.2/30 dev eth1
+ip address add 130.0.0.2/30 dev eth2
+ip route add 0.0.0.0/0 via 130.0.0.1
+!la metto perchè devo instradare e la raggiungo tramite n.h di bb2
+systemctl start frr

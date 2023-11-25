@@ -1,0 +1,3 @@
+1- router id di b012 è (100.20.1.20) ->sh ip ospf database
+2-DR di lan G è b03 -> sh ip ospf database su una macchina della rete dove sta lan G, vedo net link states
+3- due di 0.0.0.0/0 -> sh ip route da r21, una da b012 e una da b02
